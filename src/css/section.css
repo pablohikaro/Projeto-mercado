@@ -1,0 +1,66 @@
+.main-section {
+    background-color: rgb(245, 223, 191);
+    margin-top: 1%;
+    margin-left:2%;
+    margin-right:2%;
+    align-items: center;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4vh;
+    padding-top: 2%;
+}
+
+.text-add{
+    text-align: center;
+    height: 4vh;
+    width: 27vh;
+    font-size: large;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+
+.buttom-add{
+    background-color: rgb(89, 54, 54);
+    font-size: 70%;
+    height: 5vh;
+    width: 24vh;
+    margin-top: 15px;
+    border-radius: 200px 200px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttom-add:hover{
+    opacity: 0.9;
+}
+
+.lista-tarefa{
+    margin-top: 1rem;
+    background-color:  rgb(226, 222, 217);
+    width: 100%;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3.3vh;
+    margin: 20px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+img{
+    height: 25px;
+}
+
+
+.done{
+    background-color: #8fac55;
+    text-decoration: line-through;
+}
