@@ -16,5 +16,12 @@
 .main-header>p{
     font-size: 4vh;
     font-weight: bold;
-    text-shadow: -8px 6px 8px #ffffff;
+    text-shadow: -8px 6px 8px #928787;
+}
+
+.explicacao{
+    color: #111111;
+    padding-top: 15px;
+    width: 50%;
+    font-weight: bold;
 }
