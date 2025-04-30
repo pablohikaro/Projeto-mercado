@@ -22,6 +22,15 @@
 .explicacao{
     color: #111111;
     padding-top: 15px;
-    width: 50%;
+    text-align: justify;
+    width: 200px;
+    background-color: aliceblue;
+    height: 100px;
+    overflow: scroll;
     font-weight: bold;
+}
+
+.explicacao>h1{
+    text-align: center;
+    color:  rgb(89, 54, 54);
 }
